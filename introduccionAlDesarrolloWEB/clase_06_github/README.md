@@ -100,6 +100,22 @@ Cada vez que se realice un cambio SIGNIFICATIVO, vamos a realizar los siguientes
 
 3. `git push origin main`
 
+## Otros comandos de git
+
 Para saber como está el estado del proyecto, ponemos el siguiente comando
 
-`git status`
+- `git status`
+
+  > Devuelve si hay modificaciones en el repo o nuevos archivos/carpetas creadas
+
+Para ver el historial de los commits
+
+- `git log`
+
+  > Devuelve todos los commits realizados con fecha, hora y otros datos
+
+Traer un repositorio a los directorios
+
+- `git clone URL`
+
+  > Desde la url te va a hacer una copia del repo clonado, puede ser uno propio o forkeado de otro usuario
