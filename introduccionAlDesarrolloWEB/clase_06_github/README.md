@@ -31,7 +31,7 @@ Si todo está bien, lo controlamos con el comando:
 
 > ↑↑↑ Devuelve tu nombre de usuario
 
-## Inicializar un nuevo Repositorio
+## Inicializar un nuevo Repositorio con comandos que tira github
 
 ```
 echo "# DesafioLatam_G74" >> README.md
@@ -75,6 +75,20 @@ git push -u origin main
 7. `git push -u origin main`
 
    > Subir todos los cambios realizados
+
+## Inicializan un repositorio nuevo con comandos propios
+
+1. `git init` (SE UTILIZA 1 SOLA VEZ) (**OBLIGATORIO**)
+
+   > Inicializa el nuevo repositorio
+
+2. `git branch -M main` (SE UTILIZA 1 SOLA VEZ) (**OBLIGATORIO**)
+
+   > Crea una una rama nueva y la pone por default en el repositorio
+
+3. `git remote add origin https://github.com/abigail-salas/DesafioLatam_G74.git` (SE UTILIZA 1 SOLA VEZ) (**OBLIGATORIO**)
+
+   > Enlaza nuestro directorio con el REPOSITORIO de github, LA URL es de su PROPIO repositorio
 
 ## Guardar cambios y subirlos al Repo
 
