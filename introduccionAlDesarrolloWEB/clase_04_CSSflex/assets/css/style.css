@@ -1,0 +1,101 @@
+body {
+  background-color: black;
+  color: aliceblue;
+}
+
+/* div {
+  background-color: rgb(25, 64, 165);
+  display: inline;
+}
+
+a {
+  background-color: brown;
+  color: white;
+  display: block;
+} */
+
+/* div * {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  border: 2px solid white;
+  background-color: rgb(92, 12, 12);
+} */
+
+.boxes {
+  display: flex;
+  justify-content: center;
+}
+
+.boxes1 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.boxes2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.boxes3 {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.boxes4 {
+  display: flex;
+  flex-wrap: wrap;
+  /*  flex-wrap: wrap-reverse; */
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  background-color: rgb(86, 82, 82);
+  justify-content: flex-end;
+}
+
+ul li {
+  padding: 15px;
+}
+
+li a {
+  color: aliceblue;
+}
+
+ul li:hover {
+  background-color: black;
+}
+
+li a:active {
+  color: brown;
+}
+
+ul #unico:hover {
+  background-color: rgb(195, 14, 14);
+}
+
+.contenedor {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card {
+  /*  display: flex;
+  flex-direction: column;
+  align-items: center; */
+  text-align: center;
+  width: 200px;
+}
+
+.card img {
+  max-width: 100%;
+  max-height: 100%;
+}

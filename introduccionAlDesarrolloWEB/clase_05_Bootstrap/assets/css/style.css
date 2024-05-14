@@ -1,0 +1,23 @@
+.botonFondo {
+  background-color: brown;
+  color: black;
+}
+
+.navbarFondo {
+  background-color: darkseagreen;
+}
+
+.rojo {
+  background-color: brown;
+  border: 2px solid white;
+}
+
+.azul {
+  background-color: rgb(15, 15, 126);
+  border: 2px solid white;
+}
+
+.verde {
+  background-color: green;
+  border: 2px solid white;
+}

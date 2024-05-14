@@ -1,0 +1,74 @@
+body {
+  background-color: rgb(72, 15, 15);
+  color: aliceblue;
+}
+
+h1 {
+  background-color: cadetblue;
+  color: aliceblue;
+}
+
+p {
+  color: darkturquoise;
+}
+
+.parrafoBorde {
+  border: 4px solid rgb(183, 211, 238);
+  border-radius: 50px;
+  color: aliceblue;
+
+  padding: 30px 60px;
+}
+
+#soyUnico {
+  border: 5px solid rgb(81, 8, 159);
+  border-radius: 10px;
+}
+
+#idEspecifico {
+  color: rgb(231, 137, 196);
+  border: 4px solid rgb(106, 147, 2);
+  border-radius: 20px;
+
+  margin: 20px;
+}
+
+.secciones {
+  border-radius: 40px;
+  border: 3px solid white;
+  margin: 20px 0px;
+  padding: 10px 20px;
+}
+
+.s-uno {
+  background-color: #002500;
+}
+
+.s-dos {
+  background-color: #7c3238;
+}
+
+.s-tres {
+  background-color: #929982;
+}
+
+.s-tres h4 {
+  font-size: 20px;
+}
+
+.s-dos h4 {
+  font-size: 30px;
+}
+
+.s-uno h4 {
+  font-size: 40px;
+}
+
+h4 {
+  margin: 10px;
+  font-size: 100px;
+}
+
+.secciones p {
+  color: #edcbb1;
+}
