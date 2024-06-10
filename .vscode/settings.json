@@ -1,3 +1,4 @@
 {
-  "liveServer.settings.port": 5501
+  "liveServer.settings.port": 5501,
+  "livePreview.defaultPreviewPath": "/CSSAvanzado/clase_01_flexbox/index.html"
 }
