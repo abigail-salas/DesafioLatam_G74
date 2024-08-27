@@ -1,0 +1,45 @@
+body {
+  background-color: black;
+  color: aliceblue;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.card {
+  background-color: #4c061d;
+  color: #ffe5d4;
+  border-radius: 10%;
+  border: 3px solid #efc7c2;
+  margin: 30px;
+  padding: 20px 10px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 15px;
+  justify-content: center;
+
+  width: 500px;
+  height: 500px;
+}
+
+.card .img {
+  width: 250px;
+  height: 250px;
+}
+
+.card .name {
+  font-size: 40px;
+}
+
+.card .phone {
+  font-size: 20px;
+}
+
+.card .city {
+  font-size: 20px;
+}
+
