@@ -195,26 +195,6 @@ Imagina que estás gestionando una tienda en línea que vende diferentes categor
 
 ### Consultas a realizar:
 
-1. **Contar la cantidad total de productos vendidos por categoría**:
-
-   - Usa `GROUP BY` y `SUM` para calcular cuántos productos se han vendido por cada categoría.
-
-2. **Mostrar las categorías que han vendido más de 5 productos**:
-
-   - Utiliza la cláusula `HAVING` para filtrar los grupos cuyo total vendido sea mayor a 5.
-
-3. **Calcular el total de ingresos por categoría**:
-
-   - Multiplica la cantidad de productos vendidos por el precio de cada producto y agrupa los resultados por categoría.
-
 4. **Encontrar el producto con el precio más alto y más bajo**:
 
    - Usa `MAX` y `MIN` para encontrar el producto más caro y más barato.
-
-5. **Listar las ventas de productos cuyo precio es mayor que el promedio de precios**:
-
-   - Realiza una subconsulta para encontrar el promedio de los precios de los productos y filtra las ventas de productos cuyo precio sea mayor a ese promedio.
-
-6. **Listar el total de ventas por producto**:
-
-   - Muestra cuántas unidades se han vendido de cada producto.
