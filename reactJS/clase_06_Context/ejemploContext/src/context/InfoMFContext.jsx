@@ -2,7 +2,7 @@ import { createContext, useState } from "react";
 
 export const InfoContext = createContext();
 
-const infoMasculino = ["Carlos", "Ignacio", "Matias", "Federico", "Raul"];
+const infoMasculino = ["Lautaro", "Ignacio", "Matias", "Federico", "Raul"];
 const infoFemenino = ["Sandra", "Bianca", "Ayelen", "Karla", "Andrea"];
 
 const InfoProvider = ({ children }) => {
